@@ -7,3 +7,8 @@ spring:
   config:
     #import: configserver:http://localhost:8888
     import: optional:configserver:http://localhost:8888
+  profiles:
+    active: qa
+#  cloud:
+#    config:
+#      profile: qa
