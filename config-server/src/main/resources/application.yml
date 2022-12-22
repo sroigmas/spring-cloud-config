@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///Users/srm/Documents/Estudios/Cursos/Spring Cloud/config-server-git
